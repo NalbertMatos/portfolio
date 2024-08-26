@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&display=swap');
+
+
 :root {    
     --cor-1: #21251F;
     --cor-2: #FDA521;
@@ -6,6 +9,7 @@
 
     --fonte-1: "Nunito", sans-serif;
     --fonte-2: "marsek";
+    --fonte-3: "Bona Nova SC", serif;
 
     --fonte--tamanho: 20px;
 }
@@ -94,6 +98,8 @@ main{
     background-color: var(--cor-4);
     display: grid;
     place-items: center;
+
+    font-size: 36px;
 }
 
 .conteudo{
@@ -109,4 +115,18 @@ main{
     height: 80%;
     width: 30%;
     background-color: var(--cor-1);
+}
+
+.saudacao{
+    font-size: 18px;
+}
+
+.nome{
+    font-family: var(--fonte-3);
+    font-size: 64px;
+}
+
+.descricao{
+    margin: 4px 0px;
+    font-size: 24px;
 }
